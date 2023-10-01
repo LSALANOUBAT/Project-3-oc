@@ -1,0 +1,1 @@
+LOAD DATA INFILE '/var/lib/mysql-files/commune.csv' INTO TABLE commune FIELDS TERMINATED BY ';' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
